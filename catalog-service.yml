@@ -17,7 +17,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/dev?useSSL=false
     username: root
     password: dbpass
-    initialize: false
+    initialize: true
 eureka:
   instance:
     prefer-ip-address: true
