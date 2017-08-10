@@ -23,7 +23,7 @@ logging.level.org.springframework.security: DEBUG
 spring:
   profiles: development
   datasource:
-    url: jdbc:mysql://192.168.59.103:3306/dev
+    url: jdbc:mysql://127.0.0.1:3306/dev
     username: root
     password: 123456
     initialize: true
