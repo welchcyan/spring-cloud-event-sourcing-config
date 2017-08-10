@@ -17,7 +17,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/dev
     username: root
     password: 123456
-    initialize: false
+    initialize: true
 security:
   oauth2:
     resource:
@@ -57,7 +57,7 @@ spring:
     database: H2
   datasource:
     url: jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE
-    initialize: false
+    initialize: true
 security:
   oauth2:
     resource:
